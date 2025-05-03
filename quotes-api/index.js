@@ -33,7 +33,7 @@ app.use(
 
 app.use(express.json());
 
-app.use((req, res, next) => {
+app.use("/api", (req, res, next) => {
   const origin = req.get("Origin");
 
   if (!origin || origin !== process.env.FRONTEND) {
