@@ -1,13 +1,13 @@
-import './App.css'
-import About from './components/About'
-import Achievements from './components/Achievements'
-import Blogs from './components/Blogs'
-import Experience from './components/Experience'
-import Hero from './components/Hero'
-import Projects from './components/Projects'
+import { Analytics } from '@vercel/analytics/react'; // Add this line
+import './App.css';
+import About from './components/About';
+import Achievements from './components/Achievements';
+import Blogs from './components/Blogs';
+import Experience from './components/Experience';
+import Hero from './components/Hero';
+import Projects from './components/Projects';
 
 function App() {
-
   return (
     <>
       <Hero />
@@ -16,6 +16,7 @@ function App() {
       <Projects />
       <Achievements />
       <Blogs />
+      <Analytics />
     </>
   )
 }
