@@ -109,7 +109,7 @@ const Hero = () => {
         >
           <div className="mb-8 flex items-center text-slate-600 dark:text-slate-400">
             <MapPin size={16} className="mr-2 flex-shrink-0" />
-            <span>Miraj, India</span>
+            <span>Miraj, Maharashtra, India</span>
           </div>
         </div>
 
