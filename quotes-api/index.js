@@ -34,17 +34,17 @@ app.use(
 
 app.use(express.json());
 
-app.use("/api", (req, res, next) => {
-  const origin = req.get("Origin");
+// app.use("/api", (req, res, next) => {
+//   const origin = req.get("Origin");
 
-  if (!origin || origin !== process.env.FRONTEND) {
-    return res
-      .status(403)
-      .json({ message: "Forbidden: Invalid or missing Origin" });
-  }
+//   if (!origin || origin !== process.env.FRONTEND) {
+//     return res
+//       .status(403)
+//       .json({ message: "Forbidden: Invalid or missing Origin" });
+//   }
 
-  next();
-});
+//   next();
+// });
 
 app.use(
   "/api/v1",
