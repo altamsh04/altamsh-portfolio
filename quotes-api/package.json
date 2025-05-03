@@ -1,0 +1,24 @@
+{
+  "name": "quotes-api",
+  "version": "1.0.0",
+  "description": "A RESTful API for serving random quotes with Redis caching",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.5.0",
+    "ioredis": "^5.6.1",
+    "mysql2": "^3.6.0",
+    "redis": "^4.6.11"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "nodemon": "^3.0.1"
+  }
+}
