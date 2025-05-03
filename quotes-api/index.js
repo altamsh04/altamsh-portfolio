@@ -17,6 +17,7 @@ const limiter = rateLimit({
     res.status(429).json({
       success: false,
       message: "Too many requests, please try again later.",
+      status: 429
     });
   },
 });
