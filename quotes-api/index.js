@@ -17,18 +17,21 @@ const limiter = rateLimit({
     res.status(429).json({
       success: false,
       message: "Too many requests, please try again later.",
-      status: 429
+      status: 429,
     });
   },
 });
 
 app.use("/api", limiter);
 
+const allowedOrigin = process.env.FRONTEND.replace(/\/+$/, "");
+
 app.use(
   cors({
-    origin: process.env.FRONTEND,
-    methods: ["GET"],
+    origin: allowedOrigin,
+    methods: ["GET", "OPTIONS"],
     credentials: true,
+    optionsSuccessStatus: 200
   })
 );
 
