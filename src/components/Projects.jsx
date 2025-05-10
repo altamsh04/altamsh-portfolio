@@ -1,20 +1,20 @@
 import {
-    ArrowUpRight,
-    Award,
-    Braces,
-    Brain,
-    Briefcase,
-    ChevronDown,
-    Code,
-    CodeSquare,
-    ExternalLink,
-    Filter,
-    Laptop,
-    Monitor,
-    Smartphone,
-    Tag,
-    Terminal,
-    Workflow,
+  ArrowUpRight,
+  Award,
+  Braces,
+  Brain,
+  Briefcase,
+  ChevronDown,
+  Code,
+  CodeSquare,
+  ExternalLink,
+  Filter,
+  Laptop,
+  Monitor,
+  Smartphone,
+  Tag,
+  Terminal,
+  Workflow,
 } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -59,6 +59,7 @@ const Projects = () => {
     { id: "desktop", name: "Desktop", icon: Monitor },
     { id: "cli", name: "CLI Tools", icon: Terminal },
     { id: "api", name: "APIs", icon: Braces },
+    { id: "ai", name: "AI", icon: Brain },
   ];
 
   const projectTypes = [
@@ -191,11 +192,22 @@ const Projects = () => {
     },
     {
       type: "web",
+      title: "www.basuengineering.in",
+      description:
+        "Personal Organization website for products inquiry, overall company services, features etc with admin panel.",
+      technologies: ["ReactJS", "NodeJS", "Firebase", "RESTful APIs"],
+      organization: "Basu Engineering",
+      status: "Production",
+      live: "http://www.basuengineering.in",
+    },  
+    {
+      type: "web",
       title: "SiteIQ",
       description:
         "A personal site management website for Knam Construction which helps to manage all records of the sites including payments, employees data, materials management etc.",
       technologies: ["ReactJS", "NodeJS", "Firebase", "TailwindCSS"],
       organization: "Knam Construction",
+      status: "Production",
     },
     {
       type: "web",
@@ -213,14 +225,16 @@ const Projects = () => {
         "AI Based Smart Glasses where I contributed on Image Processing, CNN, MQTT Protocols.",
       technologies: ["AI", "CNN", "Image Processing", "MQTT"],
       organization: "Embeetek Technologies",
+      status: "Production",
     },
     {
       type: "api",
       title: "AutoSMS",
       description:
-        "Write effective REST APIs on auto sms sending that used on their projects as the Microservice.",
+        "Write effective system for auto sms sending with integration of production level Rest APIs.",
       technologies: ["Java", "SMSManager", "RESTful APIs"],
       organization: "Anonymsms",
+      status: "Production",
     },
   ];
 
