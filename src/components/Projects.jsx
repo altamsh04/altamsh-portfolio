@@ -185,7 +185,7 @@ const Projects = () => {
       title: "www.embeetek.com",
       description:
         "Personal Organization website for project inquiry, project showcase, overall company services, features etc with admin panel.",
-      technologies: ["ReactJS", "NodeJS", "MySQL", "Redis", "RESTful APIs"],
+      technologies: [],
       organization: "Embeetek Technologies",
       status: "In Progress",
       live: "http://www.embeetek.com",
@@ -195,7 +195,7 @@ const Projects = () => {
       title: "www.basuengineering.in",
       description:
         "Personal Organization website for products inquiry, overall company services, features etc with admin panel.",
-      technologies: ["ReactJS", "NodeJS", "Firebase", "RESTful APIs"],
+      technologies: [],
       organization: "Basu Engineering",
       status: "Production",
       live: "http://www.basuengineering.in",
@@ -205,7 +205,7 @@ const Projects = () => {
       title: "SiteIQ",
       description:
         "A personal site management website for Knam Construction which helps to manage all records of the sites including payments, employees data, materials management etc.",
-      technologies: ["ReactJS", "NodeJS", "Firebase", "TailwindCSS"],
+      technologies: [],
       organization: "Knam Construction",
       status: "Production",
     },
@@ -214,7 +214,7 @@ const Projects = () => {
       title: "www.knamconstruction.com",
       description:
         "Organization website for portfolio, services, and all about customer engagements.",
-      technologies: ["ReactJS", "NodeJS", "MySQL", "Redis"],
+      technologies: [],
       organization: "Knam Construction",
       status: "In Progress",
     },
@@ -223,7 +223,7 @@ const Projects = () => {
       title: "Sign Language Interpretation",
       description:
         "AI Based Smart Glasses where I contributed on Image Processing, CNN, MQTT Protocols.",
-      technologies: ["AI", "CNN", "Image Processing", "MQTT"],
+      technologies: [],
       organization: "Embeetek Technologies",
       status: "Production",
     },
@@ -232,7 +232,7 @@ const Projects = () => {
       title: "AutoSMS",
       description:
         "Write effective system for auto sms sending with integration of production level Rest APIs.",
-      technologies: ["Java", "SMSManager", "RESTful APIs"],
+      technologies: [],
       organization: "Anonymsms",
       status: "Production",
     },
